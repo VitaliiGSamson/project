@@ -1,26 +1,35 @@
 "use strict";
 
-alert('Hello');
+// alert('Hello');
 
-console.log(4 +"5");
+const answers = [];
 
-let incr = 10,
-    decr = 10;
+answers[0] = prompt('Как ваше имя?','');
+answers[1] = prompt('Как вашa фамимя?','');
+answers[2] = prompt('Скольок вам лет?','');
+
+document.write(answers);
+
+
+// console.log(4 +"5");
+
+// let incr = 10,
+//     decr = 10;
 
 // ++incr;     /////префіксні incr++ постфіксні
 // --decr;                    decr--
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
 
-console.log(5%2);
+// console.log(5%2);
 
-console.log(2 + 2 * 2 != 8);
+// console.log(2 + 2 * 2 != 8);
 
-const isChecked = false,
-      isClose = false;
+// const isChecked = false,
+//       isClose = false;
 
-console.log(isChecked || !isClose);      
+// console.log(isChecked || !isClose);      
 
 
 
